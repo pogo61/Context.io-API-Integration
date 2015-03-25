@@ -1,0 +1,11 @@
+#%RAML 0.8
+title: Context.io API Integration
+version: 1.0
+baseUri: https://spreadsheets.google.com/feeds
+/mail:
+  get:
+    description: <<get the contents of the first email in the first folder for the first email account>>
+    responses:
+      200:
+        body:
+          application/json:
