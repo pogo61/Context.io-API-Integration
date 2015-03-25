@@ -38,7 +38,7 @@
 #### Verify Connectivity
 - Using curl http://"URL of the Listener of your ND"/contextio_int/mail
 -  the response should be similar to the below, listing of the first email, of the first folder, of the first email account found in your Context.io account:  
-    ```{"status":"Success", "detail":"
+``{"status":"Success", "detail":"
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
@@ -54,8 +54,8 @@
     <body bgcolor="#FFFFFF" style="-webkit-font-smoothing: antialiased; width:100%;background:#ffffff;-webkit-text-size-adjust:none; margin:0; padding:0;">.....................
     </body>
 </html>
-"}
-```   
+"}```
+  
 
 ### Modify and Build
 In the event you need to change the API Hook.   Here are the instructions to do so. 
